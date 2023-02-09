@@ -1,9 +1,9 @@
-//Letter Word Sentence Counter
+/* Letter Word Sentence Counter
 You can count the letters, words, and sentences in a given text by using the following methods:
 For letters:
+  
 Split the text into individual characters.
 Use a loop to iterate through each character and check if it is a letter. If it is a letter, increment a counter variable.
-//
 
 For words:
 Split the text into words using spaces.
@@ -17,7 +17,7 @@ Increment a counter variable for each sentence.
 You can also use regular expressions to count letters, words, and sentences.
 
 Here is a Python code snippet to count the number of letters, words, and sentences in a given text:
-
+*/
 def count_text(text):
 letters = 0
 words = 0
